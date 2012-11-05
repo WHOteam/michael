@@ -197,20 +197,15 @@ investigate which properties are important predictors of national obesity rates,
 
 \chapter{Analysis}
 
-The proposed project consists of a few major components.
+As implied in the technical background section, the proposed project consists of a few major components: acquisition and structuring of data; graph modeling; regression modeling; and analysis of these results.
 
-First, data needs to be acquired. A wealth of data is available from the CIA World Factbook, a reputable government-maintained website. Information can be
-found on obesity rates, economic and trade data (such as GDP per capita, number of import/export partners, and income inequality), and national borders (numbers and names of bordering countries). This data will initially be handled in a data frame in either R or Python.
+The previously-described process for gathering results will leave us with one or more regression models which accurately predict a country's obesity rate. The next questions are: How do we interpret these models? How can the models be used in the future?  We said the model will be accurate, but what exactly does that mean?
 
-Secondly, the graphs need to be constructed. Both Python and Java offer fairly robust graphical structures and methods. Several different theoretical graphs will be created with a variety of definitions.
+There exist standard techniques for evaluating the quality of a regression model. We are looking for the residuals to follow a normal distribution; for the slope estimates to have small variances; for an overall hypothesis test of the model's fit to reject a null hypothesis; and for other assumptions, germane to the specific type of regression model, to be met. If our assessments of these factors show that the model fits the data well, then we can validate its use for interpreting the effects of our independent variables on obesity rates.
 
-Thirdly, data will be extracted from the graphs. Measures such as neighborhood sizes, shortest paths, vertex degrees, and cliques and independent sets will be considered. This data will be tabulated and added to the original data frame.
+Ideally, our regression models can be used to experiment with independent variables to predict the effect of changes in these variables on the obesity rate. For example, a policymaker may want to know how he or she can expect the obesity rate to change if health expenditures increase, or if the country imports food products from fewer countries. A model that is accurate by the above standards can give a sound estimate of these effects.
 
-Fourthly, a multiple linear regression model will be built to examine the appropriateness of a linear model for the data, as well as to give some initial insight into which variables are significant predictors of the national obesity rate. Predictor variables in this regression model will include items from the first step such as GDP per capita, and will also include items from the third step, e.g., number of developed countries within 1000 miles. The insights from this initial model will allow a more appropriate regression model to be designed, which may be non-linear or mixed in nature, depending on the results of the first model. This model will have a strong theoretical ability to predict the obesity rate in new countries not included in the original data, as well as give an effective account for the variation within the original data.
-
-If time permits, then the graphical modeling stage will be revisited, with additional data considered, such as information about food market and international restaurant chain presence.
-
-If data on past obesity rates is not readily available, then the project will be scaled down to exclude the model to predict future obesity rates, since for this model data is needed from more than one point in time. In this case, the current obesity rate model will be expanded to consider more data that otherwise would only have been included with time permitting.
+This experimentation will be made possible by a package that we build in R. This package will contain sample data that was used in our building of the models, functions to facilitate manipulation of the independent variables, and functions to create plots and charts of these effects.
 
 \chapter{Progress}
 
@@ -265,7 +260,6 @@ We have also gathered formatted data of all geographic adjacencies between count
 
 Going forward, we will start to build graphs in Python and explore ways to infer data from them. The 6 variables which were significant in the exploratory regression tests will be given higher consideration when building the graphs. For example, one piece of data we might consider is the sum of internet users of all of a country's geographical neighbors. There will be many ways to gain information from the graphs, and a lot of the work on this stage of the project will simply be experimenting with different details to find out which information is of interest.
 
-
 After we have thoroughly perused the graphs in Python, the data we gain from them (e.g. number of neighboring internet users) will be added to the data frame in R, and we can continue with the regression process.
 
 %\chapter{Conclusion}
@@ -299,29 +293,34 @@ After we have thoroughly perused the graphs in Python, the data we gain from the
 
 \vspace{8pt} \noindent {\bf Regression}. Regression is a method for modeling the relationship between a single response variable and one or more independent variables which are thought to have a relationship with the response variable. If this relationship is linear, then it is linear regression. If the response variable comes from a finite set of outcomes, then we use logistic regression, which calculates the odds of the response variable taking on each outcome. Coefficients are estimated for each independent variable such that the deviation between actual and predicted values is minimized.
 
+\vspace{8pt} \noindent {\bf Residuals}. In regression analysis, a regression model's residuals are the squared distances between actual values of the response variable and the the values predicted by the model. Generally, if the residual values appear to follow a pattern, rather than being randomly dispersed, we might surmise that the current model is not an appropriate choice for modeling the data.
+
 \vspace{8pt} \noindent {\bf Hypothesis test}. A hypothesis test compares a null hypothesis to an alternative hypothesis. The null hypothesis is rejected if, under the assumption that it is true, the probability of observing the true data is less than a specified significance value. In the statistics community it is standard to use 0.05 as this value.
 
 \vspace{8pt} \noindent {\bf Gini index}. A probabalistic measure of dispersion of incomes in a society, where a higher Gini index indicates more income inequality - i.e., a bigger gap between rich and poor.
 
+\vspace{8pt} \noindent {\bf .csv file}. A file that stores tabular data in plaintext format, and can be easily processed in most programming languages. Rows are separated by line breaks, and row entries are separated by commas, tabs, semicolons, or other user-specified delimiters.
+
 
 \ifthenelse{\boolean{@twoside}}{\myclearpage}{}
-\chapter{Abbreviations}\label{Abbreviations}
+\chapter{Acronyms}\label{Acronyms}
 
-
-\noindent CIA. Central Intelligience Agency
+\noindent {\bf CIA} Central Intelligience Agency
 \vspace{5pt}
 
-\noindent GDP Gross Domestic Production
-
-\vspace{5pt}
-
-\noindent BMI. Body Mass Index
+\noindent {\bf GDP} Gross Domestic Production
 
 \vspace{5pt}
 
-\noindent WHO. World Health Organization
+\noindent {\bf BMI} Body Mass Index
 
 \vspace{5pt}
+
+\noindent {\bf WHO} World Health Organization
+
+\vspace{5pt}
+
+\noindent {\bf CSV} Comma-separated Values
 
 %\endinput
 

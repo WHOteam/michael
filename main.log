@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.15)  4 NOV 2012 22:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.15)  5 NOV 2012 13:56
 entering extended mode
 **main.tex
 (C:\Users\Shanbogen\Documents\Schoolwork\MathModeling\groupproj\main.tex
@@ -319,7 +319,7 @@ Chapter 4.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
@@ -327,15 +327,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--254
 File: dataframe_snapshot.png Graphic file (type png)
 
 <use dataframe_snapshot.png>
-Package pdftex.def Info: dataframe_snapshot.png used on input line 255.
+Package pdftex.def Info: dataframe_snapshot.png used on input line 250.
 (pdftex.def)             Requested size: 433.62pt x 78.4758pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 255--256
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 250--251
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
@@ -346,15 +346,15 @@ shot.png>] <underweight_children.png, id=38, 689.57625pt x 537.00626pt>
 File: underweight_children.png Graphic file (type png)
 
 <use underweight_children.png>
-Package pdftex.def Info: underweight_children.png used on input line 259.
+Package pdftex.def Info: underweight_children.png used on input line 254.
 (pdftex.def)             Requested size: 433.62pt x 337.68478pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 259--260
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 254--255
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
@@ -362,10 +362,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 File: multi_regression.png Graphic file (type png)
 
 <use multi_regression.png>
-Package pdftex.def Info: multi_regression.png used on input line 261.
+Package pdftex.def Info: multi_regression.png used on input line 256.
 (pdftex.def)             Requested size: 325.215pt x 332.14761pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
@@ -375,9 +375,9 @@ roj/multi_regression.png>]
 Appendix A.
 [11
 
-]
+] [12]
 Appendix B.
-[12
+[13
 
 ] (C:\Users\Shanbogen\Documents\Schoolwork\MathModeling\groupproj\main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
@@ -402,12 +402,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 ervices/generalSurgery
  []
 
-) [13
+) [14
 
 ] (C:\Users\Shanbogen\Documents\Schoolwork\MathModeling\groupproj\main.aux) ) 
 Here is how much of TeX's memory you used:
  3529 strings out of 494045
- 50389 string characters out of 3148375
+ 50384 string characters out of 3148375
  114133 words of memory out of 3000000
  6768 multiletter control sequences out of 15000+200000
  13051 words of font info for 48 fonts, out of 3000000 for 9000
@@ -419,9 +419,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (13 pages, 198085 bytes).
+Output written on main.pdf (14 pages, 199533 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

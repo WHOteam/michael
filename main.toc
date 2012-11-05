@@ -5,6 +5,6 @@
 \contentsline {chapter}{\numberline {4}Analysis}{7}
 \contentsline {chapter}{\numberline {5}Progress}{8}
 \contentsline {chapter}{\numberline {A}Glossary}{11}
-\contentsline {chapter}{\numberline {B}Abbreviations}{12}
+\contentsline {chapter}{\numberline {B}Acronyms}{13}
 \contentsline {chapter}{REFERENCES}{}
-\contentsline {chapter}{Selected Bibliography Including Cited Works}{13}
+\contentsline {chapter}{Selected Bibliography Including Cited Works}{14}
